@@ -43,4 +43,4 @@ setInterval(() => {
     sendCosmosTokens().catch(err => {
         console.error(err);
     });
-}, 10000); // This sets the interval to 1 second
+}, 1000); // This sets the interval to 1 second
